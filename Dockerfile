@@ -4,4 +4,4 @@ RUN git clone https://github.com/MalcolmRobb/dump1090.git
 WORKDIR dump1090
 RUN make
 
-ENTRYPOINT ["./dump1090", "--gain 10","--interactive","--aggressive","--net"]
+ENTRYPOINT ["./dump1090", "--interactive","--aggressive","--net"]
